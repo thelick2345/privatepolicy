@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>忆格 · 支持</title>
+<style>
+  :root {
+    --primary: #4f46e5;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --bg: #f9fafb;
+    --card: #ffffff;
+    --border: #e5e7eb;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", "Microsoft YaHei", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+  header { text-align: center; padding: 24px 0 32px; }
+  .logo { width: 72px; height: 72px; border-radius: 18px; background: linear-gradient(135deg, #4f46e5, #7c3aed); color: #fff; font-size: 30px; font-weight: 700; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; }
+  h1 { font-size: 26px; font-weight: 700; }
+  header p { color: var(--muted); margin-top: 8px; font-size: 15px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 24px; margin-bottom: 16px; }
+  h2 { font-size: 18px; font-weight: 600; margin-bottom: 12px; }
+  .qa { padding: 14px 0; border-bottom: 1px solid var(--border); }
+  .qa:last-child { border-bottom: none; }
+  .qa .q { font-weight: 600; margin-bottom: 6px; }
+  .qa .a { color: var(--muted); font-size: 15px; }
+  a { color: var(--primary); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  footer { text-align: center; color: var(--muted); font-size: 13px; margin-top: 32px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">忆</div>
+    <h1>忆格 · 支持</h1>
+    <p>想背什么,就背什么。</p>
+  </header>
+
+  <div class="card">
+    <h2>常见问题</h2>
+
+    <div class="qa">
+      <div class="q">忆格是什么?</div>
+      <div class="a">忆格是一款自定义背诵工具。你可以自己录入要背的知识点、自己出题,由忆格用记忆算法帮你安排复习进度,直到真正记住。单词、古诗词、课文、考点、错题……只要能写下来、编出题,就能背。</div>
+    </div>
+
+    <div class="qa">
+      <div class="q">我的数据存在哪里?安全吗?</div>
+      <div class="a">忆格不联网、没有自己的服务器,也不上传任何第三方。你的所有数据只保存在你自己的设备和 iCloud 里,没有广告,也不会被收集或出售。</div>
+    </div>
+
+    <div class="qa">
+      <div class="q">怎么备份和恢复数据?</div>
+      <div class="a">打开「设置」→「导出完整备份」,会生成一个 .json 文件。换新手机后,在「设置」→「从备份恢复」选择这个文件即可恢复全部数据(含配图和复习进度)。</div>
+    </div>
+
+    <div class="qa">
+      <div class="q">换手机了,数据会自动同步吗?</div>
+      <div class="a">会。在「设置」里开启 iCloud 同步,并确保两台设备登录同一个 Apple ID,数据就会自动同步到新设备。</div>
+    </div>
+
+    <div class="qa">
+      <div class="q">怎么批量导入知识点?</div>
+      <div class="a">在「知识点」页点右上角的导入按钮,可以下载 CSV 模板,或选择一个 .csv 文件一次导入多个知识点。老师和同学之间也可以互相分享自己做的模板。详细格式见 App 内「使用帮助」。</div>
+    </div>
+
+    <div class="qa">
+      <div class="q">忆格怎么收费?</div>
+      <div class="a">忆格是买断制,一次付费、终身使用。没有内购、没有订阅、没有隐藏收费。</div>
+    </div>
+
+    <div class="qa">
+      <div class="q">为什么有些知识点不出现在刷题里?</div>
+      <div class="a">只有「背诵过」的知识点才会进入刷题。新知识点先通过「背诵」学习,背过之后就会出现在刷题里。另外,没有添加考题的知识点会被标记为「未完成」,也不会出现在刷题和背诵中。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>联系我们</h2>
+    <div class="qa" style="border-bottom:none;">
+      <div class="a">遇到问题或有建议,欢迎写信给我们:</div>
+      <div class="a" style="margin-top:8px;"><a href="mailto:thelick2345@gmail.com">thelick2345@gmail.com</a></div>
+    </div>
+  </div>
+
+  <footer>© 2026 忆格 · MemoryCloset</footer>
+</div>
+</body>
+</html>
