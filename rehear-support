@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>支持 · Support — 反复听</title>
+    <style>
+        :root {
+            --accent: #0a84ff;
+            --text: #1c1c1e;
+            --muted: #6e6e73;
+            --bg: #f5f5f7;
+            --card: #ffffff;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, "SF Pro Text", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+        header { text-align: center; margin-bottom: 32px; }
+        header .icon { font-size: 48px; }
+        header h1 { font-size: 28px; font-weight: 700; margin: 12px 0 8px; }
+        header .sub { color: var(--muted); font-size: 14px; }
+        .card {
+            background: var(--card);
+            border-radius: 16px;
+            padding: 28px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+        }
+        h2 { font-size: 20px; margin-bottom: 12px; color: var(--accent); }
+        p { margin-bottom: 12px; font-size: 15px; }
+        ul { margin: 0 0 12px 20px; font-size: 15px; }
+        li { margin-bottom: 6px; }
+        .muted { color: var(--muted); font-size: 13px; }
+        a { color: var(--accent); text-decoration: none; }
+        details { margin-bottom: 10px; }
+        summary {
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 15px;
+            padding: 10px 0;
+            border-bottom: 1px solid #f0f0f2;
+        }
+        details p { margin-top: 10px; font-size: 14px; color: var(--muted); }
+        .btn {
+            display: inline-block;
+            background: var(--accent);
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 12px;
+            font-weight: 600;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="icon">🔁</div>
+            <h1>反复听 支持</h1>
+            <div class="sub">语言学习 · 音频反复听 · 变速 · AB 反复听</div>
+        </header>
+
+        <div class="card">
+            <h2>关于应用</h2>
+            <p>反复听是一款面向语言学习的音频反复听应用。它支持导入多种格式音频、任意位置播放、0.3x–2x 变速（不变调）、AB 反复听、分类整理、稿子（脚本）与本地备份。</p>
+            <ul>
+                <li>完全本地运行，不联网、不上传数据</li>
+                <li>支持 iPhone 与 iPad</li>
+                <li>需要 iOS 17 及以上</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>常见问题（FAQ）</h2>
+
+            <details open>
+                <summary>如何导入音频？</summary>
+                <p>在「资料库」页点左上角「添加音频」，从「文件」或 iCloud Drive 选择音频即可。支持 mp3 / m4a / aac / wav / flac / aiff / caf / mp4 / mov / m4b。</p>
+            </details>
+
+            <details>
+                <summary>AB 反复听怎么用？</summary>
+                <p>播放页点「设起点 A」标记句子开头，播放到句子结尾点「设终点 B」，即开始循环这一句；点「结束反复听」退出。想从头反复听整段，直接点「从头反复听」。</p>
+            </details>
+
+            <details>
+                <summary>如何给音频归类、起别名？</summary>
+                <p>在「分类」页新建分类，导入后会自动提示归类；也可以在播放页点「分类」随时更改。别名在播放页标题处显示。</p>
+            </details>
+
+            <details>
+                <summary>如何换机转移数据？</summary>
+                <p>在「资料库」页点「更多」→「导出备份」，把 .zip 通过 AirDrop 或「文件」保存；新设备点「更多」→「导入备份」选择该文件即可。</p>
+            </details>
+
+            <details>
+                <summary>为什么没有联网权限提示？</summary>
+                <p>本应用完全本地运行，不需要联网权限，也不会上传任何数据。导入 iCloud Drive 文件时由系统「文件」选择器处理。</p>
+            </details>
+        </div>
+
+        <div class="card" style="text-align:center;">
+            <h2>联系我们</h2>
+            <p>遇到问题或有建议？欢迎邮件联系我们。</p>
+            <p style="margin-bottom: 16px;"><a class="btn" href="mailto:support@rehear.app">support@rehear.app</a></p>
+            <p class="muted">我们会尽快回复。</p>
+        </div>
+
+        <p class="muted" style="text-align:center;">© 2026 反复听 · All rights reserved.</p>
+    </div>
+</body>
+</html>
