@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隐私政策 · Privacy Policy — 反复听</title>
+    <style>
+        :root {
+            --accent: #0a84ff;
+            --text: #1c1c1e;
+            --muted: #6e6e73;
+            --bg: #f5f5f7;
+            --card: #ffffff;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, "SF Pro Text", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+        header { text-align: center; margin-bottom: 32px; }
+        header h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+        header .sub { color: var(--muted); font-size: 14px; }
+        .card {
+            background: var(--card);
+            border-radius: 16px;
+            padding: 28px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+        }
+        h2 { font-size: 20px; margin-bottom: 12px; color: var(--accent); }
+        p { margin-bottom: 12px; font-size: 15px; }
+        ul { margin: 0 0 12px 20px; font-size: 15px; }
+        li { margin-bottom: 6px; }
+        .muted { color: var(--muted); font-size: 13px; }
+        a { color: var(--accent); text-decoration: none; }
+        .lang-divider { border: none; border-top: 1px solid #e5e5ea; margin: 24px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>隐私政策</h1>
+            <div class="sub">反复听 · 最后更新：2026 年 9 月</div>
+        </header>
+
+        <div class="card">
+            <h2>概述</h2>
+            <p>反复听是一款用于语言学习的本地音频反复听应用。我们非常重视你的隐私。本隐私政策说明本应用如何处理数据。</p>
+        </div>
+
+        <div class="card">
+            <h2>我们不收集任何数据</h2>
+            <p>本应用<strong>不收集、不存储、不传输任何个人数据</strong>。你没有账号，我们不需要也不获取你的姓名、邮箱、位置、通讯录、照片或任何其他个人信息。</p>
+        </div>
+
+        <div class="card">
+            <h2>数据完全存储在本地</h2>
+            <p>以下所有内容都只保存在你自己的设备（App 沙盒）内：</p>
+            <ul>
+                <li>你导入的音频文件</li>
+                <li>稿子（脚本 / 字幕文本）</li>
+                <li>分类、别名等元数据</li>
+            </ul>
+            <p>这些数据不会被上传到任何服务器。</p>
+        </div>
+
+        <div class="card">
+            <h2>网络</h2>
+            <p>本应用<strong>不需要网络连接</strong>，也不向任何服务器发送数据。备份导出/导入是通过系统「文件」App 或 AirDrop 在本地完成的。</p>
+        </div>
+
+        <div class="card">
+            <h2>关于 iCloud Drive</h2>
+            <p>导入音频时，系统「文件」选择器可以访问 iCloud Drive。这是 Apple 提供的系统功能；本应用只读取你<strong>主动选择</strong>的文件，不扫描、不复制、不上传 iCloud 中的其他内容。</p>
+        </div>
+
+        <div class="card">
+            <h2>第三方与追踪</h2>
+            <p>本应用不包含任何第三方分析、广告、追踪 SDK，也不收集任何用于广告或营销的数据。</p>
+        </div>
+
+        <div class="card">
+            <h2>儿童隐私</h2>
+            <p>由于本应用不收集任何人的任何数据，因此也不收集儿童的数据。</p>
+        </div>
+
+        <div class="card">
+            <h2>联系我们</h2>
+            <p>如对本隐私政策有任何疑问，请通过 <a href="mailto:support@rehear.app">support@rehear.app</a> 与我们联系。</p>
+        </div>
+
+        <hr class="lang-divider">
+
+        <header>
+            <h1>Privacy Policy</h1>
+            <div class="sub">Rehear · Last updated: September 2026</div>
+        </header>
+
+        <div class="card">
+            <h2>Overview</h2>
+            <p>Rehear is a local audio-repeating app for language learning. We take your privacy seriously.</p>
+        </div>
+
+        <div class="card">
+            <h2>We Collect No Data</h2>
+            <p>This app <strong>does not collect, store, or transmit any personal data</strong>. There is no account, and we do not request or obtain your name, email, location, contacts, photos, or any other personal information.</p>
+        </div>
+
+        <div class="card">
+            <h2>Data Stays On Your Device</h2>
+            <p>All of the following are stored only locally on your device (in the app sandbox):</p>
+            <ul>
+                <li>Imported audio files</li>
+                <li>Transcripts (scripts / subtitles)</li>
+                <li>Categories, aliases, and other metadata</li>
+            </ul>
+            <p>None of this data is uploaded to any server.</p>
+        </div>
+
+        <div class="card">
+            <h2>Network</h2>
+            <p>This app <strong>does not require a network connection</strong> and sends no data to any server. Backups are exported/imported locally via the Files app or AirDrop.</p>
+        </div>
+
+        <div class="card">
+            <h2>About iCloud Drive</h2>
+            <p>The system file picker can access iCloud Drive when importing audio. This is an Apple-provided system feature; the app only reads files you <strong>explicitly choose</strong>, and does not scan, copy, or upload other iCloud content.</p>
+        </div>
+
+        <div class="card">
+            <h2>Third Parties &amp; Tracking</h2>
+            <p>This app contains no third-party analytics, ads, or tracking SDKs, and collects no data for advertising or marketing.</p>
+        </div>
+
+        <div class="card">
+            <h2>Children's Privacy</h2>
+            <p>Because the app collects no data from anyone, it also collects no data from children.</p>
+        </div>
+
+        <div class="card">
+            <h2>Contact Us</h2>
+            <p>If you have any questions about this privacy policy, please contact us at <a href="mailto:support@rehear.app">support@rehear.app</a>.</p>
+        </div>
+
+        <p class="muted" style="text-align:center;">© 2026 Rehear. All rights reserved.</p>
+    </div>
+</body>
+</html>
